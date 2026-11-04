@@ -1,0 +1,8 @@
+/.deps/
+/.tools/
+/build/
+/results/*
+!/results/reference/
+__pycache__/
+*.pyc
+/.venv/

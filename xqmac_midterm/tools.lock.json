@@ -1,0 +1,16 @@
+{
+  "spike_repository": "https://github.com/riscv-software-src/riscv-isa-sim.git",
+  "spike_commit": "2ca548930def9b045c6b6167c714e4a8fcb9f7b8",
+  "linux_amd64_toolchain_packages": [
+    {
+      "file": "binutils-riscv64-unknown-elf_2.40-2+4+b1_amd64.deb",
+      "url": "https://deb.debian.org/debian/pool/main/b/binutils-riscv64-unknown-elf/binutils-riscv64-unknown-elf_2.40-2+4+b1_amd64.deb",
+      "sha256": "e3b54bd849891b1afb83b9751efe671e35d6267ce791ea9b01205b616276021c"
+    },
+    {
+      "file": "gcc-riscv64-unknown-elf_12.2.0-14+deb12u1+11+b2_amd64.deb",
+      "url": "https://deb.debian.org/debian/pool/main/g/gcc-riscv64-unknown-elf/gcc-riscv64-unknown-elf_12.2.0-14+deb12u1+11+b2_amd64.deb",
+      "sha256": "6117b2328a58059977e04e9938fffa2016cc88a2dc0ca70d1efeeea0c7b4dace"
+    }
+  ]
+}
