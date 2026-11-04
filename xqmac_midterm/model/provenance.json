@@ -1,0 +1,9 @@
+{
+  "repository": "litert-community/resnet18",
+  "revision": "7eabef429f15b4fcd4db3e225d81bd0fd7860c4f",
+  "filename": "resnet18_int8_channelwise.tflite",
+  "url": "https://huggingface.co/litert-community/resnet18/resolve/7eabef429f15b4fcd4db3e225d81bd0fd7860c4f/resnet18_int8_channelwise.tflite",
+  "sha256": "8fea1acb62829e120b4953b6fbf0f842e0032909254f51c2d989703b66534683",
+  "reference": "ai-edge-litert 2.3.0 BUILTIN_REF, one thread, preserve_all_tensors, no delegates",
+  "fixtures": "three synthetic cases; not ImageNet accuracy evaluation"
+}

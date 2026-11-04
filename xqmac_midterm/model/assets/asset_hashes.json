@@ -1,0 +1,12 @@
+{
+  "model_constants.bin": "35b2a7d24b48e46bca8d0525e03d17e61fc14c1010eb2c05d4c0ce9a72f6b4e7",
+  "model_data.h": "339b3bcc5a6f392f139add3e5cf6601c43eccf9def63b8d016caebf6b88063da",
+  "operators.inc": "816908df7833a225b253b8be4d384db141d3c77b334c844f93e868eb7784ce6d",
+  "operators.h": "563dd95eb5dc773133b373ab67aa843629cee65592869eb2658a18263e14bec9",
+  "graph.inc": "87a4c01faf22841c4906e58665d50e8eea69c225b26a33342519bd02ac2f3774",
+  "data.S": "c49d9af20b9b755ff43f653df2cdbd1de5677111fb423b6fa527941b85f93f8f",
+  "model_manifest.json": "6b3bee636f81cdbb348399b616aaef0d5aee5944cfe764580e59f56cbcd57dcc",
+  "fixtures/random.bin": "fb5e09ad75a93c35fa35760c958532329a3c1bcf815c0584fb359ff68d8e12a5",
+  "fixtures/real_zero.bin": "c8bda78cc654d117aea4ddc08a800cfd55ddf7ed980b38c716dcb68594405068",
+  "fixtures/maximum.bin": "fe349fd7977e94bc97c7eb63f50e6587214a983fdd48ecbb34f7ae064215dacd"
+}
