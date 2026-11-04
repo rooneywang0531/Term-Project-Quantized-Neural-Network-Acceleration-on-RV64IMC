@@ -1,0 +1,81 @@
+{
+  "oracle": "Python unbounded (x*m + 2**(r-1)) // 2**r, single rounding ties toward +infinity",
+  "seed": 20261104,
+  "vectors": 12554,
+  "alias_calls": 842,
+  "expected_sr_count": 25950,
+  "alias_cases": [
+    [
+      "t0",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "a0",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "a1",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "a2",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "zero",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "t0",
+      "zero",
+      "a1",
+      "a2"
+    ],
+    [
+      "t0",
+      "a0",
+      "zero",
+      "a2"
+    ],
+    [
+      "t0",
+      "a0",
+      "a1",
+      "zero"
+    ],
+    [
+      "t0",
+      "a0",
+      "a0",
+      "a2"
+    ],
+    [
+      "t0",
+      "a0",
+      "a1",
+      "a1"
+    ],
+    [
+      "t0",
+      "a2",
+      "a1",
+      "a2"
+    ],
+    [
+      "a0",
+      "a0",
+      "a0",
+      "a0"
+    ]
+  ]
+}

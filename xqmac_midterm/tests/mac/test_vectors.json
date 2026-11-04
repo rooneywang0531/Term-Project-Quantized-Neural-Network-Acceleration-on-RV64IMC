@@ -1,0 +1,22 @@
+{
+  "seed": 20261104,
+  "vector_count": 4560,
+  "alias_vectors": 64,
+  "alias_cases": [
+    "rd_a",
+    "rd_w",
+    "rd_acc",
+    "a_w",
+    "acc_a",
+    "acc_w",
+    "all_a",
+    "rd_zero",
+    "all_zero",
+    "rd_separate",
+    "a_zero",
+    "w_zero",
+    "acc_zero"
+  ],
+  "oracle": "Python arbitrary-precision integers, explicit lane extraction, mod2^32, RV64 sign extension",
+  "expected_qmac_calls": 29024
+}

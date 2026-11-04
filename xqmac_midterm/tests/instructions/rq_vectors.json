@@ -1,0 +1,81 @@
+{
+  "oracle": "original C nudge, signed truncating divide, arithmetic shift and remainder threshold; Python unbounded integers",
+  "seed": 20261104,
+  "vectors": 12540,
+  "alias_calls": 1000,
+  "expected_rq_count": 26080,
+  "alias_cases": [
+    [
+      "t0",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "a0",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "a1",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "a2",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "zero",
+      "a0",
+      "a1",
+      "a2"
+    ],
+    [
+      "t0",
+      "zero",
+      "a1",
+      "a2"
+    ],
+    [
+      "t0",
+      "a0",
+      "zero",
+      "a2"
+    ],
+    [
+      "t0",
+      "a0",
+      "a1",
+      "zero"
+    ],
+    [
+      "t0",
+      "a0",
+      "a0",
+      "a2"
+    ],
+    [
+      "t0",
+      "a0",
+      "a1",
+      "a1"
+    ],
+    [
+      "t0",
+      "a2",
+      "a1",
+      "a2"
+    ],
+    [
+      "a0",
+      "a0",
+      "a0",
+      "a0"
+    ]
+  ]
+}
