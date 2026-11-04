@@ -1,0 +1,89 @@
+{
+  "correctness": "PASS",
+  "native_validation": {
+    "numeric_comparison": "PASS",
+    "ubsan": "passed",
+    "mode": "auto",
+    "compiler": "gcc"
+  },
+  "native_sr_validation": {
+    "numeric_comparison": "PASS",
+    "ubsan": "passed",
+    "mode": "auto",
+    "compiler": "gcc"
+  },
+  "sr_vectors": 12554,
+  "sr_alias_calls": 842,
+  "sr_custom_counts": {
+    "qmac4.ss": 0,
+    "qmac4.us": 0,
+    "qrequant.dr": 0,
+    "qrequant.sr": 25950
+  },
+  "scope": "unit tests only, not model performance",
+  "vectors": 12540,
+  "alias_calls": 1000,
+  "rq_custom_counts": {
+    "qmac4.ss": 0,
+    "qmac4.us": 0,
+    "qrequant.dr": 26080,
+    "qrequant.sr": 0
+  },
+  "mac_regression_counts": {
+    "qmac4.ss": 19072,
+    "qmac4.us": 9952,
+    "qrequant.dr": 0,
+    "qrequant.sr": 0
+  },
+  "negative_tests": {
+    "extension_absent": 0,
+    "shift": 0,
+    "mult": 0,
+    "funct2": 0,
+    "funct3": 0,
+    "sr_extension_absent": 0,
+    "sr_shift": 0,
+    "sr_high_shift": 0,
+    "sr_mult": 0,
+    "sr_funct2": 0,
+    "sr_funct3": 0,
+    "mac_BAD_ENCODING": 0,
+    "mac_BAD_FUNCT2": 0
+  },
+  "plugin_sha256": "d3898e84334525dda3a4fbd3af97aacfc0a8662a5d1f6f3567bda8bade4d334c",
+  "spike_sha256": "46aceace3838ba612bf923f8f14ee73b0994fd2e7784f0d86639fe5dc1988474",
+  "gcc_version": "riscv64-unknown-elf-gcc (12.2.0-14+deb12u1+11+b2) 12.2.0",
+  "tested_source_sha256": {
+    "isa/build_extension.py": "e495c43e682dad048c0cced4311882049e80f7c507b246c15ecd836da3e7de00",
+    "isa/isa_ops.h": "f5b8a29925ef918a8d21949a24a92a6dcdf523581e031b681bb50de9eb713f79",
+    "isa/rq_semantics.h": "77ded507388d0b8fc4a50abea08057fda1ff476c61300f0b5c036348420c5410",
+    "isa/spike_extension.cc": "0db61e64289c49348d79b00aa6e681071ed5e98d284a93e06ad063d57cb29daf",
+    "isa/xqmac.h": "1a760ae040785bc61a963cfb30bd79cca50e8549915638b88a700a5e057d31fe",
+    "isa/xqmac_semantics.h": "8c5e34e933b1b1321657fb021bafe429e2052a39c951fc8c705f27b17a28f9ff",
+    "isa/xqrequant.h": "baa927fb44204a1e5504dce93ceaa0b7dca4a2e7c73ce293f1aaf9cb177c8e71",
+    "tests/instructions/generate_sr.py": "365895875822da3cd23c50bc20740ed59654d953f7e92549ceb680758770d1eb",
+    "tests/instructions/generate_tests.py": "8bbbf7a784d408b17934849f0baa37097a84c3b1e51d84b5f8faa912a64ef6a1",
+    "tests/instructions/native_check.py": "d7e7ed09ab130e91e787ace3ed407b19bf1069f9d4323c4220e3c6747ea81d5c",
+    "tests/instructions/native_sr.c": "161349eec0b22e3154f3449b077823e6ff0800fdef221d9f3cd4c824cf771f51",
+    "tests/instructions/native_test.c": "586d7b9f1ab41b06a14d631554968c59e767514f687900eed2fb2edf6ffc764b",
+    "tests/instructions/rq_alias.S": "fa43178fa15fd07f4e63be26f46e1ec6052cb550842ce2652ccda5ab5cd0b8be",
+    "tests/instructions/rq_probe.S": "989f4e3f92ec27c717ec824f12a6f03ab549716df40181c30ae2f9e3df797374",
+    "tests/instructions/rq_unit.c": "9af34bbc1e1813b7fd5752f55c343d7b0d0994ebaf1eb3440f6ab2343386d5f1",
+    "tests/instructions/rq_vectors.h": "4b195f0b5bdc988cc0981f141cc553fd4d55775906653d1eb9484e673b8d1126",
+    "tests/instructions/rq_vectors.json": "bfa231652bf5868d5f38d51adc40ffdf0b68d369763549636e704f9c194b317b",
+    "tests/instructions/sr_alias.S": "4e58d02bee268cbc7b18192794c2ec962529809568688e2554e669d6aa6d713e",
+    "tests/instructions/sr_probe.S": "253c183113416525d84525e51469eec8d0e847164fe2141bd8075c586ff71007",
+    "tests/instructions/sr_unit.c": "16e872490a8751acfc4cb531d1656abb5cc67ddd922c781b6def920694eb4a84",
+    "tests/instructions/sr_vectors.h": "20deb26deb80c66a8ba2b8c8e40624f4866d139b017ee97f74d94206bfc237e4",
+    "tests/instructions/sr_vectors.json": "f943fe25189ae7ec4202f666d139d54181793f85c1ea327db6aac2373927deee",
+    "tests/instructions/start.S": "59873cb7be38edb4c15e4e17081613c336de0b938ea5309d2c66777768550c2b",
+    "tests/mac/alias_tests.S": "0761809329c419915c615c9a4ae09df07e95926dda9cae6f83ecc46e7efa32a6",
+    "tests/mac/alias_tests.h": "e80649cee5aa6cbeddf0668f77f9655f78a9d30fc42483c6f1eb3cb928f93d7a",
+    "tests/mac/gen_vectors.py": "319cb1bc3e01b6767e5af0b55ac71ac16a9cb4a77db5271207c483625a13bb17",
+    "tests/mac/negative_probe.S": "5a738ab4ea1739fb88e85e60fcd44f183ed3aeaba1d9d024fe6cc66750158726",
+    "tests/mac/start.S": "59873cb7be38edb4c15e4e17081613c336de0b938ea5309d2c66777768550c2b",
+    "tests/mac/test_vectors.h": "d63010b95fe8b51637d6f8de32b5b2ceb2069fe92634ca7cb11ff63fef022ab9",
+    "tests/mac/test_vectors.json": "7096e0526e47442224ce0031d4e3a2755100d4fc48766585d1c1c773c7a8bf15",
+    "tests/mac/unit_test.c": "d45002924eaca26afe68a3cd65c1772e53fb4fe67933992ff753da38d41f6452"
+  }
+}

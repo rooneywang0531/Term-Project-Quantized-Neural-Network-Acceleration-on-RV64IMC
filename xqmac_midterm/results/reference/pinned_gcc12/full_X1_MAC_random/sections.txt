@@ -1,0 +1,12 @@
+<repo>/build/full_X1_MAC_random/model.elf  :
+section                 size         addr
+.text                  24752   2147483648
+.rodata             16874612   2147512320
+.data                      8   2164387840
+.tohost                   72   2164387904
+.bss                 2094336   2164387984
+.stack                 65536   2166482320
+.riscv.attributes         47            0
+Total               19059363
+
+

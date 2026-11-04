@@ -1,0 +1,29 @@
+{
+  "source": "Previously supplied workstation logs; not the pinned-toolchain reproduction",
+  "compiler": "riscv64-unknown-elf-gcc 16.1.0",
+  "scope": "sum of all 37 operator symbols",
+  "case": "random",
+  "configuration_order": [
+    "B0",
+    "B1",
+    "X1_MAC_v2",
+    "X1_RQ_v2"
+  ],
+  "dynamic_instructions": [
+    14341261830,
+    6752583412,
+    1784388394,
+    1717141906
+  ],
+  "operator_code_bytes": [
+    12182,
+    24410,
+    20874,
+    14808
+  ],
+  "final_x1_other_cases": {
+    "real_zero": 1715832104,
+    "maximum": 1715907049
+  },
+  "cycle_count": null
+}

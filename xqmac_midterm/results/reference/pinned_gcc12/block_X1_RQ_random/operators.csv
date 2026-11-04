@@ -1,0 +1,4 @@
+index,kind,symbol,dynamic_instructions,instruction_share,code_bytes,executed_macs
+5,CONV_2D,op_05_conv_2d,103129765,0.49078289958862137,632,112869376
+6,CONV_2D,op_06_conv_2d,102872637,0.4895592564880536,632,112869376
+7,ADD,op_07_add,4130765,0.01965784392332506,134,0

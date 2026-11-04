@@ -1,0 +1,12 @@
+<repo>/build/fc_X1_RQ_random/model.elf  :
+section                 size         addr
+.text                    674   2147483648
+.rodata             16874612   2147487744
+.data                      4   2164363264
+.tohost                   72   2164363328
+.bss                    1544   2164363408
+.stack                 65544   2164364952
+.riscv.attributes         47            0
+Total               16942497
+
+

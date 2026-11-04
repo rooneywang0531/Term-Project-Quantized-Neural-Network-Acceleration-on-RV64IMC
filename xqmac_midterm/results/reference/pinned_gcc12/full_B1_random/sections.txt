@@ -1,0 +1,12 @@
+<repo>/build/full_B1_random/model.elf  :
+section                 size         addr
+.text                  29116   2147483648
+.rodata             16874612   2147516416
+.data                      8   2164391936
+.tohost                   72   2164392000
+.bss                 2094336   2164392080
+.stack                 65536   2166486416
+.riscv.attributes         47            0
+Total               19063727
+
+

@@ -1,0 +1,5 @@
+Exported random all 37 reference outputs 5126100 bytes
+Exported real_zero all 37 reference outputs 5126100 bytes
+Exported maximum all 37 reference outputs 5126100 bytes
+Static arena: 2094320 dense MACs: 1814073344 executed MACs: 1691652096
+PASS: regenerated constants, graph and fixtures match every committed exporter asset hash.

@@ -1,0 +1,12 @@
+<repo>/build/full_X1_RQ_maximum/model.elf  :
+section                 size         addr
+.text                  18100   2147483648
+.rodata             16874612   2147504128
+.data                      8   2164379648
+.tohost                   72   2164379712
+.bss                 2094336   2164379792
+.stack                 65536   2166474128
+.riscv.attributes         47            0
+Total               19052711
+
+

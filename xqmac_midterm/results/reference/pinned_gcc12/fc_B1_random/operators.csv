@@ -1,0 +1,2 @@
+index,kind,symbol,dynamic_instructions,instruction_share,code_bytes,executed_macs
+36,FULLY_CONNECTED,op_36_fully_connected,2169047,1.0,712,512000

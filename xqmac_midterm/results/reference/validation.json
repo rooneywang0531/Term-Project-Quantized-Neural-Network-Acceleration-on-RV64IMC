@@ -1,0 +1,9 @@
+{
+  "native_linux": "PASS: instruction tests, four FC microbenchmarks, complete X1 block, four random full-model variants, X1 real-zero and maximum full-model cases",
+  "relocated_checkout": "PASS: final quick suite from /tmp with freshly installed pinned compiler; all counts/mixes/code sizes/correctness equal original; host dtc provided on PATH",
+  "python_reference_reexport": "PASS: Python 3.12 with requirements-export.txt; all original exporter asset hashes identical",
+  "pinned_binary_installer": "PASS: checksum verification and local extraction",
+  "docker": "NOT RUN: Docker unavailable in validation environment",
+  "spike_revision": "2ca548930def9b045c6b6167c714e4a8fcb9f7b8",
+  "note": "Reference records only. Benchmarks always regenerate results/ and build/; no reference file is consumed as a successful test marker."
+}
