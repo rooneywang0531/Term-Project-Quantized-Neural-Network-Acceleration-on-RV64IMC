@@ -87,3 +87,4 @@ The FC microbenchmark performs 512,000 MACs, and all 1,000 outputs match the Lit
 
 All outputs of all 37 operators, including the 1,000 final logits, match the LiteRT reference exactly. Operator instructions decrease from 6,752,583,412 (B1) to 1,717,141,906 (final X1), giving a 3.932× instruction-count ratio, or a 74.57% reduction. This is an instruction-count improvement, not a cycle speedup. Comparisons must use the same compiler and build settings; instruction totals and code size may differ across toolchains.
 
+其餘資訊在報告簡報裡說明
