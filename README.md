@@ -51,7 +51,7 @@ bash scripts/reproduce.sh full
 
 `full` runs the instruction tests, all **37 operators** for random input in all four configurations, their comparison, and final X1 full inference for the real-zero and maximum fixtures. Every C operator output is compared exactly with the saved LiteRT `BUILTIN_REF` result, including all 1000 final logits. No layer is fed golden outputs during full inference.
 
-接著就可以看到 B0, B1, X1_MAC, X1_MAC_RQ 的每層輸出結果是否正確，以及它們之間的 instruction 統計資料等，用下面的指令可以查看統計比較表
+接著就可以看到 B0, B1, X1_MAC, X1_MAC_RQ 的每層輸出結果是否正確，以及它們之間的 instruction 統計資料等，最後也驗證極端數據計算是否正確，用下面的指令可以查看統計比較表
 ```bash
 cat results/comparison_full_random.md
 ```
